@@ -21,7 +21,7 @@ export const About = (props) => {
                       organisation looking to expand its team with dedicated, hard-working personnel.
           </p>
         </div>
-              <div className="relative md:float-right circle border-2 border-black rounded-full  aspect-square m-10 md:m-0 md:h-1/5 md:w-1/5 bg-gray-500"><img src={skyeProfile}></img></div>
+              <div className="relative md:float-right circle border-2 border-black rounded-full  aspect-square m-10 md:m-0 md:h-1/5 md:w-1/5 bg-gray-500"><img src={skyeProfile} alt="profile of Skye Renda"></img></div>
         <div className="md:w-2/5 align-top md:ml-10 text-left">
           <h3 className="font-bold">Languages</h3>
           <p>python | web-development | C# | C++ | react</p>

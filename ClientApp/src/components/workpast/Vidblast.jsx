@@ -1,8 +1,10 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const vidblast = () => {
-  return (
-    <div className=" my-2 text-left bg-back-mining bg-cover bg-center lg:mr-10 text-white py-10 px-10 lg:rounded-3xl max-h-full overflow-auto">
+    return (
+        <Fade right>
+    <div className=" my-2 text-left bg-back-mining bg-cover bg-center lg:mr-10 text-white py-10 px-10 max-h-full overflow-auto">
       <h1 className="text-5xl my-5">Drone Pilot and Subordinate Manager</h1>
       <h2 className="text-4xl my-1 ">Vidblast</h2>
       <h3 className="text-3xl"> [ 05/2019 – 04/2022 ]</h3>
@@ -20,7 +22,8 @@ const vidblast = () => {
         representative on behalf of the drone company, I dealt with all
         communication and financial matters.
       </p>
-    </div>
+            </div>
+        </Fade>
   );
 };
 
