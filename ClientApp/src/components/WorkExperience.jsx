@@ -69,17 +69,18 @@ export const WorkExperience = () => {
           </button>
           <span className="h-1 w-10 border-2 my-auto border-black"></span>
         </div>
-          </div>
-          <Fade right><div className="hidden lg:block lg:w-3/5 lg:m-auto">
-              {returnSelectedWork()}
-          </div></Fade>
-          
-      
+      </div>
+      <Fade right>
+        <div className="hidden lg:block lg:w-3/5 lg:m-auto">
+          {returnSelectedWork()}
+        </div>
+      </Fade>
+
       <div className="lg:hidden">
-              <Fade clear><Precon></Precon></Fade>
-              <Fade clear ><Vidblast></Vidblast></Fade>
-              <Fade clear ><SkydiveTandem></SkydiveTandem></Fade>
-              <Fade clear><Leon></Leon></Fade>
+        <Precon></Precon>
+        <Vidblast></Vidblast>
+        <SkydiveTandem></SkydiveTandem>
+        <Leon></Leon>
       </div>
     </div>
   );

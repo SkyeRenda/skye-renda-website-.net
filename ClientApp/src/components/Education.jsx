@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Education = (props) => {
+export const Education = () => {
   return (
-    <div className="h-screen">
+    <div className="h-full">
       <div className="bg-back-unisa bg-cover bg-center text-right p-20 ">
         <h1 className="text-5xl">Bachelor of Science, Computing</h1>
         <h2 className="text-4xl">University of South Africa</h2>
@@ -14,7 +14,7 @@ export const Education = (props) => {
             href="https://www.unisa.ac.za"
             className="underline hover:text-skye-blue"
           >
-            https://www.unisa.ac.za
+            www.unisa.ac.za
           </a>
         </h3>
       </div>
@@ -28,7 +28,7 @@ export const Education = (props) => {
             href="https://www.cranfield.co.za"
             className="underline hover:text-skye-blue"
           >
-            https://www.cranfield.co.za
+            www.cranfield.co.za
           </a>
         </h3>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import gitIcon from "../images/github white.png"
+import gitIcon from "../images/github white.png";
 
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -49,18 +49,26 @@ export const Navbar = () => {
         </button>
 
         {showMenu && <SlideOut toggleShowMenu={toggleShowMenu} />}
-         </div>
-          <div className=" hidden md:block absolute right-0 mr-8"><a href="https://github.com/SkyeRenda/skye-renda-website-.net"><img className="w-8 h-8" src={gitIcon} alt="icon for github" /></a></div> 
+      </div>
+      <div className=" hidden md:block absolute right-0 mr-8">
+        <a href="https://github.com/SkyeRenda/skye-renda-website-.net">
+          <img
+            className="w-8 h-8"
+            src={gitIcon}
+            alt="icon for github"
+          />
+        </a>
+      </div>
     </div>
   );
 };
 
 const Menu = () => {
   return (
-    <div class="space-y-2 mr-2">
-      <div class="w-8 h-0.5 bg-white"></div>
-      <div class="w-8 h-0.5 bg-white"></div>
-      <div class="w-8 h-0.5 bg-white"></div>
+    <div className="space-y-2 mr-2">
+      <div className="w-8 h-0.5 bg-white"></div>
+      <div className="w-8 h-0.5 bg-white"></div>
+      <div className="w-8 h-0.5 bg-white"></div>
     </div>
   );
 };
@@ -105,8 +113,16 @@ const SlideOut = (props) => {
           >
             Work Experience
           </a>
-              </div>
-              <div className=" inline-block m-auto"><a href="https://github.com/SkyeRenda/skye-renda-website-.net"><img className="w-8 h-8" src={gitIcon} alt="icon for github" /></a></div> 
+        </div>
+        <div className=" inline-block m-auto">
+          <a href="https://github.com/SkyeRenda/skye-renda-website-.net">
+            <img
+              className="w-8 h-8"
+              src={gitIcon}
+              alt="icon for github"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
