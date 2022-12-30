@@ -1,4 +1,4 @@
-﻿import { Education } from "./components/Education";
+import { Education } from "./components/Education";
 import { WorkExperience } from "./components/WorkExperience";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
