@@ -21,7 +21,7 @@ export const Home = () => {
           Business Analyst
         </h2>
         <a
-          href="/api/fileprocessing/downloadfile"
+          href="/api/fileprocessing/download"
           target="_blank"
         >
           <button className="my-20 md:mt-20 ml-10 flex text-white bg-skye-blue text-4xl text-left py-5 px-10">
