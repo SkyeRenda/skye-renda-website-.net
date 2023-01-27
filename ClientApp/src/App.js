@@ -21,31 +21,26 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Helmet>
-        <title>Skye Renda - Software Developer</title>
-      </Helmet>
-      <BrowserRouter>
-        <div className="App">
-          <div className="App-header">
-            <Layout innerWidth={windowSize.innerWidth}>
-              <Routes>
-                {AppRoutes.map((route, index) => {
-                  const { element, ...rest } = route;
-                  return (
-                    <Route
-                      key={index}
-                      {...rest}
-                      element={element}
-                    />
-                  );
-                })}
-              </Routes>
-            </Layout>
-          </div>
+    <BrowserRouter>
+      <div className="App">
+        <div className="App-header">
+          <Layout innerWidth={windowSize.innerWidth}>
+            <Routes>
+              {AppRoutes.map((route, index) => {
+                const { element, ...rest } = route;
+                return (
+                  <Route
+                    key={index}
+                    {...rest}
+                    element={element}
+                  />
+                );
+              })}
+            </Routes>
+          </Layout>
         </div>
-      </BrowserRouter>
-    </>
+      </div>
+    </BrowserRouter>
   );
 }
 
