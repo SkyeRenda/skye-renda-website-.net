@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Layout } from "./components/Layout";
 import AppRoutes from "./AppRoutes";
 
